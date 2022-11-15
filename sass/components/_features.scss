@@ -1,0 +1,40 @@
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__subtitle {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        color: $secondariTextCol;
+        margin: 0px;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        height: 120px;
+        background-color: $sectionBackgroundColor;
+    }
+    &__list {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        gap: 30px;
+    }
+    &__list .list__item {
+        flex-basis: calc((100% - 3 * 30px) / 4);
+    }
+}

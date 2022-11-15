@@ -1,0 +1,30 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background: $secondariBackgroundColor;
+
+    &__title {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: $primariBackgroundColor;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+
+    &__social {
+        display: block;
+        margin-left: 70px;
+    }
+}

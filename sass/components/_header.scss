@@ -1,0 +1,16 @@
+.header {
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-bottom: 1px solid $colorBorderHeader;
+    background-color: $primariBackgroundColor;
+
+    z-index: 99;
+    
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+}

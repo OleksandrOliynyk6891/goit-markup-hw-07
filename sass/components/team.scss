@@ -1,0 +1,55 @@
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $secondariBackgroundColor;
+    &__list {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        gap: $gapPrimari;
+    .list__item {
+        background-color: $primariBackgroundColor;
+    }
+    &__card {
+        padding: 30px 0;
+    }
+    &__subtitle {
+        margin: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        
+            font-size: 16px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+
+        font-weight: 500;
+        color:$primariTextColor;
+    }
+    &__text {
+        margin: 0px;
+        margin-bottom: 16px;
+    
+        text-align: center;
+        
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: $secondariTextCol;
+        }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

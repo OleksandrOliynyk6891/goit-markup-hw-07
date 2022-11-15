@@ -1,0 +1,16 @@
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+
+    &__item {
+        position: relative;
+        background-color: $primariBackgroundColor;
+    }
+    &__item--address {
+        position: relative;
+        background-color: $secondariBackgroundColor;
+    }
+
+}
