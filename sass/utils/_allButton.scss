@@ -1,4 +1,4 @@
-.button {
+%button {
 
     font-family: inherit;
     font-weight: 700;
@@ -19,6 +19,14 @@
     &:focus {
         background-color: $buttonHoverFocus;
     }
+
+}
+
+
+@mixin Flexe ($type, $axis, $transverse ) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 

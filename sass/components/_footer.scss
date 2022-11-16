@@ -1,3 +1,4 @@
+@import '../utils/allButton';
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -7,6 +8,7 @@
     &__title {
         margin-top: 0px;
         margin-bottom: 10px;
+
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -17,14 +19,34 @@
     }
 
     &__item {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
+        @include Flexe ($type, $axis:space-between, $transverse:baseline );
+
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: baseline;
     }
+    .address {
+        display: block;
+        font-style: normal;
+        margin-top: 20px;
     
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+    }
 
     &__social {
         display: block;
         margin-left: 70px;
+    }
+
+    &__form {
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+    
+        margin-left: 93px;
+    
     }
 }

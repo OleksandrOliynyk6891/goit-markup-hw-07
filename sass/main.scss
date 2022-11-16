@@ -1,4 +1,4 @@
-@import './utils/vars';
+@import './utils//variables';
 @import './components/body';
 @import './components/list_stules';
 @import './components/title';
@@ -9,7 +9,6 @@
 @import './components/navigationContacts';
 @import './components/main';
 @import './components/hiro.scss';
-@import './components/allButton';
 @import './components/buttonHiro';
 @import './components/features';
 @import './components/work';
@@ -24,6 +23,8 @@
 @import './components/backdroup';
 @import './components/modal';
 @import './components/modalForm';
+@import './components/_modalFormLable';
+@import './components/buttonFormModal';
 @import './components/modalButtonclosing';
 @import './components/filter';
 @import './components/buttonFilter';

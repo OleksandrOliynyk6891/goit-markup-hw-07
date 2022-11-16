@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./sass/utils/modern-normalize.css">
     <link rel="stylesheet" href="./css/main.min.css">
     <title>Портфоліо</title>
 </head>
@@ -222,27 +222,28 @@
     <footer class="footer">
         <div class="container">
             <section class="footer__item">
-                
+    
                 <div class="footer__contacts">
                     <!--footer site logo-->
-                    <a class="logo" href="./index.html"><span>Web</span><span class="logo__accent--color">Studio</span></a>
+                    <a class="logo" href="./index.html"><span>Web</span><span class="logo__basement">Studio</span></a>
                     <!--location-->
                     <address class="address">
                         <ul class="list">
-                            <li class="list__item">
-                                <a class="address__geo--link" href="https://go.2gis.com/3j73v" target="_blank" rel="noopener noreferrer nofollow">м.
+                            <li class="list__item--address">
+                                <a class="address__geo--link address--contact" href="https://go.2gis.com/3j73v"
+                                    target="_blank" rel="noopener noreferrer nofollow">м.
                                     Київ, пр-т Лесі Українки, 26</a>
                             </li>
-                            <li class="list__item address--contact">
+                            <li class="list__item--address address--contact">
                                 <a class="address__mail--link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                             </li>
-                            <li class="list__item address--contact">
+                            <li class="list__item--address address--contact">
                                 <a class="address__tel--link" href="tel:+380961111111">+38 096 111 11 11</a>
                             </li>
                         </ul>
                     </address>
                 </div>
-                
+    
                 <div class="footer__social">
                     <h3 class="footer__title">приєднуйтесь</h3>
                     <ul class="social">
@@ -267,7 +268,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="social__item" >
+                        <li class="social__item">
                             <a class="social__linc social--dark" href="#">
                                 <svg class="social__icon--linkedin" width="20" height="20">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
@@ -277,21 +278,21 @@
                 </div>
                 <!-- subscription form -->
     
-                    <form class="futer__form" name="subscription-form">
-                        <label class="futer__label" id="subscription-form">Підпишіться на розсилку
-                            <input class="futer__input" type="email" name="subscription-form" placeholder="E-mail" >
-                        </label>
-                        <button class="button button--submit" type="submit">Підписатися
-                            <svg class="button__icon--end" width="24" height="24">
-                                <use href="./images/icons.svg#icon-send"></use>
-                            </svg>
-                        </button>
-
-                    </form>
-                    
+                <form class="footer__form" name="subscription-form">
+                    <label class="footer__label" id="subscription-form">Підпишіться на розсилку
+                        <input class="footer__input" type="email" name="subscription-form" placeholder="E-mail">
+                    </label>
+                    <button class="button button--submit" type="submit">Підписатися
+                        <svg class="button__icon--end" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+    
+                </form>
+    
             </section>
         </div>
-</footer>
+    </footer>
 
     
 </body>

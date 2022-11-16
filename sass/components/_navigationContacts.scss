@@ -2,19 +2,19 @@
     margin-left: auto;
 
         .nav__link--disign {
-                color: $secondariTextCol;
-                &:hover,
-                &:focus {
+            color: $secondariTextCol;
+            &:hover,
+            &:focus {
             color: $hovFocusColor;
-        }
             }
+        }
             
         .nav__icon {
-                margin-right: 10px;
-                fill: currentColor;
-            }
+            margin-right: 10px;
+            fill: currentColor;
+        }
 
      & .list__item + .list__item {
-            margin-left: 50px;
-        }
+        margin-left: 50px;
     }
+}

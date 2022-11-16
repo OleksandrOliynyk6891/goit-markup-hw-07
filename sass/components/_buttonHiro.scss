@@ -1,4 +1,9 @@
+
+@import '../utils/allButton';
+
 .button--hiro{
+    @extend %button;
+
     display: inline-block;
     text-align: center;
     border-color: transparent;
